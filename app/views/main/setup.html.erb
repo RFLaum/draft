@@ -1,0 +1,15 @@
+<%
+=begin
+%>
+<ul>
+  <% Baseball.all.each do |player| %>
+    <li>
+      <%= player.first_name %>: <%= player.average_position_age_diff %>
+    </li>
+  <% end %>
+</ul>
+<%
+=end
+%>
+
+<p>Data loaded!</p>
